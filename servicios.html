@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+<head>
+	<title>servicios | serofca</title>
+	<link rel="shortcut icon" href="imgs/favicon.svg">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="control de calidad, Protección Radiológica, Radiología, Radioterapia,  seguridad radiológica, plomo, blindaje, dosimetría, dosímetro, radioprotección, radiodiagnóstico"/>
+	<meta name="description" content="Una compañía diseñada para brindarle a las instituciones de salud soluciones integrales de protección radiológica, radiología, medicina nuclear y radioterapia."/>
+	<link media="none" onload="if(media!='all')media='all'" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="css/head.css" rel="stylesheet" />
+	<link href="css/main.css" rel="stylesheet" />
+	<link href="css/j-animation.css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<nav>
+			<div id="menuBars">
+				<i class="fa fa-bars" id='barsIcon'><span> Menú</span></i>
+
+				<div id="topIcons">
+					<a rel="follow" href="http://www.twitter.com/serofca">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a rel="follow" href="http://www.facebook.com/serofca">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a rel="follow" href="http://www.instagram.com/serofca">
+						<i class="fa fa-instagram"></i>
+					</a>
+					<a rel="follow" href="http://www.serofca.wordpress.com">
+						<i class="fa fa-wordpress"></i>
+					</a>
+					<a rel="follow" href="https://www.youtube.com/user/serofcatv">
+						<i class="fa fa-youtube"></i>
+					</a>
+				</div>
+			</div>
+			<ul id="menu" style="left:-110%">
+				<li><a href="index.html#Inicio">Inicio</a></li>
+				<li><a href="index.html#Conócenos">Conócenos</a></li>
+				<li><a href="index.html#Servicios">Servicios</a></li>
+				<!--li><a href="#">Cursos</a></li-->
+				<li><a href="index.html#Productos">Productos</a></li>
+				<li><a href="index.html#Clientes">Clientes</a></li>
+				<!--li><a href="#">Eventos</a></li-->
+				<li><a href="index.html#Noticias">Noticias</a></li>
+				<li><a href="index.html#Contacto">Contacto</a></li>
+			</ul>
+		</nav>
+		<section id="cover">
+			<img src='imgs/video-3.jpg' style="">
+		</section>
+	</header>
+	<style type="text/css">
+	    #cover img{
+	        height:90vh;
+	        width:100vw;
+	        position: fixed;
+	        z-index: -10;
+	        top:10vh;
+	        transform:scale(1);
+	        object-fit:contain;
+	    }
+	    #cover{
+	        background-color:#bbe1f4;
+	        z-index:-1;
+	        top:10vh;
+	        position:fixed;
+	        height:90vh;
+	    }
+	    @media(max-width:700px){
+	        #cover{display:none}
+	        header{height:10vh}
+	        .hidder{background-color:rgba(255,255,255,.9)}
+	    }
+		#porter{
+			border: 5px solid rgb(28,117,188);
+			width: 100%;
+		}
+		h1{
+			font-size: 2.5em;
+			margin-top: 0;
+			padding-top: .7em;
+		}
+		#porter section{
+			display: none;
+		}
+		#porter h2{
+			font-size: 1.5em;
+		}
+		@media(max-width: 699px){
+			#porter img{
+				max-height: 60vh;
+				max-width: 100%;
+			}
+			#porter{
+				padding: 1em;
+			}
+		}
+		@media(min-width: 700px){
+			#porter{
+				padding: 2em;
+			}
+			#porter div{
+				display: flex;
+				align-items: flex-start;
+				position: relative;
+				flex-wrap: wrap;
+			}
+			#porter h4{
+				width: 100%;
+			}
+			#porter p{
+				width: 69%;
+				display: inline-block;
+				padding-left: .5em;
+			}
+			#porter img{
+				max-height: 30vh;
+				display: inline-block;
+			}
+		}
+		#porter #Servicios1{
+			display: block;
+		}
+		#contactServ{
+			margin-top: 1em;
+		}
+		#pest{
+			list-style: none;
+			display: flex;
+			padding-left: 0;
+		}
+		@media(max-width: 700px){
+			#pest{flex-direction: column;}
+		}
+		#pest li{
+			padding: 1em;
+			border:5px solid rgb(28,117,188);
+			flex-grow: 1;
+			cursor: pointer;
+			text-align: center;
+		}
+		#pest li:hover{
+			font-size: 1.3em;
+		}
+	</style>
+	<section class="hidder active" id="Servicios">
+		<h1>Servicios que brindamos:</h1>
+		<ul id="pest">
+			<li appTarget="Servicios1" style="border:5px solid orange">Servicios de Protección Radiológica</li>
+			<li appTarget="Proyectos">Proyectos, Construcción y Adecuación de Espacios</li>
+			<li appTarget="Servicios2">Servicios de Consultoría Especializada</li>
+			<li appTarget="Venta">Venta de Dispositivos</li>
+			<li appTarget="suministros">Suministros</li>
+		</ul>
+		<section id="porter">
+			<section id="Servicios1">
+				<h2>Servicios de Protección Radiológica</h2>
+				<div class="servicio">
+					<h4>Inspección</h4>
+					<p>
+						Se realiza informe de inspección de espacios, lo cual
+						incluye evaluación y apoyo al personal administrativo, de ingeniería  y de proyectos, con entrega de recomendaciones y posibles modificaciones en cuanto a  flujo del paciente, señalización, déficit en elementos de protección radiológica, evaluación de ventana de visualización.
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Cálculo de Blindaje</h4>
+					<img src="s/beth.png">
+					<p>
+						Este análisis se presenta en un informe
+						donde se especifican los responsables por el cálculo de dicho ambiente y
+						la Seguridad Radiológica del área necesaria con distintas posibilidades
+						y materiales para el blindaje.
+						<br>
+						Se requiere plano acotado del área y manual del equipo a comprar.
+						<br>
+						Es importante señalar que este cálculo aparte de ser obligatorio por ley, permite optimizar la compra del material y disminuir gastos.
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Levantamiento Radiométrico</h4>
+					<p>
+						Se realizan mediciones sobre todas las barreras a fin de garantizar el blindaje adecuado de un ambiente.
+						<br>
+						El objetivo es evaluar los niveles de exposición ocupacional y del público. Sus indicadores son: Equivalente de dosis ambiental en mSv/año.
+						<br>
+						La frecuencia mínima: En la aceptación de la sala, cada cuatro años y después de modificaciones que afecten la protección radiológica
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Oficial de Seguridad Radiológica</h4>
+					<img src="s/rog.png">
+					<p>
+						Ofrecemos solución integral en materia de protección
+						radiológica, que va desde asesorías, gestión de procura, cálculos de blindaje, levantamiento radiométrico, desarrollo de manuales de normas y procedimientos, implementación de programa de capacitación continua tanto del personal médico, técnico y de enfermería; así como el control y seguimiento de la dosimetría de todo el personal.
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Control de Calidad de los Equipos</h4>
+					<img src="s/2.svg">
+					<p>
+						Se realizan todas las medidas y controles de calidad del equipo basados en el Programa de Aseguramiento de la Calidad según lo establecido en la Norma Venezolana COVENIN 218-1 vigente.
+						<br><br>
+						Estas pruebas deben realizarse periódicamente, por lo menos 1 vez al año.
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Asesoría en Permisología</h4>
+					<p>
+						Asesoría y apoyo en cuanto a los permisos requeridos por la institución para trabajar con  Equipos Emisores de Radiación Ionizante.
+						<br><br>
+						1. RIMFRI
+						<br><br>
+						2. Conformidad Sanitaria de Ambientes Radiológicos
+						<br><br>
+						3. Permiso Sanitario para el Funcionamiento de Equipos de Radiodiagnóstico por Rayos X
+						<br><br>
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Servicio de Dosimetría</h4>
+					<img src="s/tld5.jpg">
+					<p>
+						Se proveen dosímetros TLD que permiten calcular la dosis de radiación a partir de los niveles de exposición de los trabajadores. Esta lectura se hace menualmente
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Cursos, Talleres, Charlas y Programas de Capacitación Continua</h4>
+					<p>
+						
+					</p>
+				</div>
+			</section>
+			<section id="Proyectos">
+				<h2>Proyectos, Construcción y Adecuación de Espacios.</h2>
+				<div class="servicio">
+					<h4>Diseño y Desarrollo de Proyectos y Elaboración de Planos de Arquitectura e Ingeniería</h4>
+					<img src="s/5.png">
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Construcción y Adecuación de Espacios</h4>
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Venta y transporte de material de Blindaje</h4>
+					<p>
+						Una vez calculado el blindaje necesario se procede a la venta, suministro y traslado del material hasta el sitio de la obra.
+						<br>
+						Esta operación se hace respetando los estándares de embalaje y cuidado del material para segurar su calidad hasta el momento de la entrega.
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Instalación del plomo y supervisión de acabados</h4>
+					<img src="s/jor.png">
+					<p>
+						Se realiza la instalación del plomo, todas las verificaciones y controles de calidad del blindaje, así como la certificación de solape en vértices o conjunción con vidrio; todo ésto basado en el Programa de Aseguramiento de la Calidad según lo establecido en la Norma Venezolana COVENIN 218-1 vigente.
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Venta, instalación y mantenimiento de equipos radiológicos</h4>
+					<img src="s/2.svg">
+					<p>
+						
+					</p>
+				</div>
+			</section>
+			<section id="Servicios2">
+				<h2>Servicios de Consultoría Especializada</h2>
+				<div class="servicio">
+					<h4>Análisis y Optimización de Flujo de Pacientes</h4>
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Optimización y Automatización de Procesos</h4>
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Análisis de Rentabilidad y toma de Desiciones</h4>
+					<img src="s/34.jpg">
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Análisis y Descripción de Estructura de Costos</h4>
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Conferencias Gerenciales</h4>
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Análisis, Captación y Desarrollo de Talento Humano</h4>
+					<img src="s/r.jpg">
+					<p>
+						
+					</p>
+				</div>
+			</section>
+			<section id="Venta">
+				<h2>Venta de Dispositivos</h2>
+				<div class="servicio">
+					<h4>Dispositivos de Almacenamiento</h4>
+					<img src="s/Porta Peto.png" alt="portapetos">
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Dispositivos de Protección Radiológica</h4>
+					<img src="s/3.svg">
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Material Médico Quirúrgico y Descartable</h4>
+					<img src="s/e.jpg">
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Dosímetros</h4>
+					<img src="s/tld5.jpg">
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Material de Blindaje</h4>
+					<img src="s/jor.png">
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Equipos de Radiología</h4>
+					<img src="s/2.svg">
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Señalizaciones</h4>
+					<img src="s/Zona Controlada.jpg" style="filter:brightness(1.6)">
+					<p>
+						
+					</p>
+				</div>
+			</section>
+			<section id="suministros">
+				<h2>Suministros</h2>
+				<div class="servicio">
+					<h4>Agua desionizada</h4>
+					<img src="s/b.jpg">
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Refrigerantes</h4>
+					<img src="s/kare.jpg">
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Discos Regrabables</h4>
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Películas Radiográficas</h4>
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Chasis Radiográficos</h4>
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Revelador</h4>
+					<p>
+						
+					</p>
+				</div>
+				<div class="servicio">
+					<h4>Fijador</h4>
+					<p>
+						
+					</p>
+				</div>
+			</section>
+		</section>
+		<button id="contactServ" onclick="location.href='index.html#Contacto'">Contáctanos</button>
+	</section>
+	<script type="text/javascript">
+		let sections = Array.from(document.querySelectorAll('#porter > section'))
+		function hideAll(){
+			sections.forEach(function(e) {
+				e.style.display='none'
+			})
+		}
+		let folderLinks = Array.from(document.querySelectorAll('#pest li'))
+		folderLinks.forEach(function(e) {
+			e.addEventListener('click',function() {
+				folderLinks.forEach(function(r) {
+					r.style.border="5px solid rgb(28,117,188)"
+				})
+				e.style.border="5px solid orange"
+				let target = e.getAttribute('appTarget')
+				hideAll()
+				sections.filter((s)=>s.id===target)[0].style.display='block'
+			})
+		})
+	</script>
+	<script type="text/javascript">/*menu change*/
+		var toggle = function(){
+			var ul = document.getElementById('menu')
+			var hidden = ul.style.left==="0%"
+			ul.style.left=hidden?"-110%":"0%"
+		}
+		document.getElementById('menuBars').addEventListener('click',toggle)
+	</script>
+</body>
+</html>

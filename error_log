@@ -1,0 +1,9 @@
+[19-Mar-2018 20:49:12 UTC] PHP Notice:  Undefined index: name in /home/serofcai/public_html/serofca.com/mail.php on line 4
+[19-Mar-2018 20:49:12 UTC] PHP Notice:  Undefined index: mail in /home/serofcai/public_html/serofca.com/mail.php on line 5
+[19-Mar-2018 20:49:12 UTC] PHP Notice:  Undefined index: org in /home/serofcai/public_html/serofca.com/mail.php on line 6
+[19-Mar-2018 20:49:12 UTC] PHP Notice:  Undefined index: phone in /home/serofcai/public_html/serofca.com/mail.php on line 7
+[19-Mar-2018 20:49:12 UTC] PHP Notice:  Undefined index: msg in /home/serofcai/public_html/serofca.com/mail.php on line 8
+[19-Mar-2018 20:49:14 UTC] PHP Notice:  Undefined index: name in /home/serofcai/public_html/serofca.com/contrato.php on line 4
+[19-Mar-2018 20:49:14 UTC] PHP Notice:  Undefined index: mail in /home/serofcai/public_html/serofca.com/contrato.php on line 5
+[19-Mar-2018 20:49:14 UTC] PHP Notice:  Undefined index: phone in /home/serofcai/public_html/serofca.com/contrato.php on line 6
+[19-Mar-2018 20:49:14 UTC] PHP Notice:  Undefined index: msg in /home/serofcai/public_html/serofca.com/contrato.php on line 7

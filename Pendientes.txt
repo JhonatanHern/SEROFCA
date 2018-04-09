@@ -1,0 +1,59 @@
+Página principal
+	Inicio
+		enlace zona académica           NOT
+		enlace Página ID                NOT
+		subir imágenes power point      READY
+		poner slogan                    READY
+		anuncio contáctanos             READY
+	Conócenos
+		actualizar imágenes personas
+	Servicios
+		collage 4 imágenes
+	Equipamiento
+		Tener Imágenes CREATIVOZ
+		Acomodar CSS
+	Clientes
+		Buscar Imágenes                  READY
+		Buscar Foto persona importante que diga frase, grabarla, incorporarla en video corporativo y  poner foto blanco y negro.
+	Noticias
+	Contáctanos
+
+ID
+	Publicaciones
+	Links Revistas
+	Participación en congreso (foto exposición y resumen)
+	Sección Lineas de Investigación
+	formulario sumarse a líneas de investigación
+	Curso 24h
+	link comprar materiales serofca.com
+	Conócenos:
+		El departamento de ITDi de SEROFCA, nace con la finalidad de contribuir en el avance de la Física Médica Moderna en Venezuela, Latinoamérica y el Mundo, con ello se persigue que con la unión de distintas áreas de conocimiento, desde la arquitectura, la ingeniería, la administración, la física, química, biología, matemática y computación, se logre un incremento en la investigación aplicada al ámbito médico desde una perspectiva mucho más integral, así como la utilización e impulso de nuevas tecnologías, el desarrollo de nuevos esquemas de trabajo y formas de comprender  nuestra realidad, para así dar lugar a la innovación en todas las áreas de desarrollo de este departamento.
+	Misión:
+		Llevar a cabo la planificación, organización, evaluación y publicación de los proyectos que ayudarán en el desarrollo de la investigación científica y tecnológica llevados a cabo en SEROFCA; con el objetivo de impulsar las líneas de investigación definidas por la empresa y generar nuevas líneas que surjan en la interconexión entre dos o más investigaciones de diversas áreas.
+	Visión:
+		Consolidarnos como departamento modelo en la investigación de ciencia aplicada a nivel nacional, latinoamericano y mundial, distinguiéndonos por la eficiencia, innovación y calidad de las investigaciones, actuando con liderazgo a fin de promover nuevos protocolos, normas y esquemas de trabajo que garanticen la mejora continua de procesos en el área de la Medicina y así colocar a SEROFCA en la vanguardia de conocimientos e innovación.
+
+Academia (Listo pero falta la imagen de portada)
+	2 noticias WP                          v
+	link WP                                v
+	Redes Sociales                         v
+	Telaraña                               v
+	Curso 24h                              v
+	link comprar materiales serofca.com    v
+	Formulario                             v
+	Descargas                              v
+	Video Corporativo                      v
+	Formulario Preguntas                   v
+	Descripción                            v
+
+Página informativa espera
+	Incluir sección para niños con videos de youtube
+	enfocada a móviles principalmente
+
+app paciente oncológico
+	calendario
+	informativa
+
+app agenda para pacientes
+	base de datos
+	filtro con sql

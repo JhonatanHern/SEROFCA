@@ -1,0 +1,50 @@
+body > footer{
+	background-color: rgba(0,0,0,.8);
+	color:white;
+	z-index: 3;
+}
+body > footer section{
+	text-align: center;
+	padding: 1em;
+}
+#footerStarter a{text-decoration: underline;}
+#footerStarter{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-ms-flex-wrap:wrap;
+	    flex-wrap:wrap;
+	-ms-flex-pack:distribute;
+	    justify-content:space-around;
+}
+#footerStarter > *{
+	text-align: center;
+}
+@media (max-width: 699px){/*little screen*/
+	#footerStarter > *{
+		width: 90%;
+	}
+}
+@media (min-width: 700px){/*big screen*/
+	#footerStarter > br{display: none;}
+	#footerStarter > *{
+		width: 30%;
+	}
+}
+body > footer #copyright{
+	width: 50%;
+	float:left;
+	font-size: 1.5em;
+}
+body > footer #icons{
+	width: 50%;
+	float:right;
+	font-size: 1.5em;
+}
+body > footer #design{
+	width: 100%;
+	clear:both;
+	color: silver;
+	font-size: .9em;
+}
